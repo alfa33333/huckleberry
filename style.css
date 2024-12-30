@@ -10,3 +10,62 @@ body {
 }
 
 /* Add styles here! */
+
+p { 
+  font-size: 1.25rem;
+}
+
+.intro-chunk > p {
+  max-width: 400px;
+}
+
+.intro-chunk > h1 {
+  margin:0;
+  padding-top: 96px;
+  margin-bottom: 48px;
+}
+
+.intro-chunk {
+  text-align: left;
+}
+
+.max-width-wrapper {
+  background-color: #FFFFFF;
+  max-width: 800px;
+  box-sizing: content-box;
+  padding-left: 24px;
+  padding-right: 24px;
+  border: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 64px;
+  border-bottom: 8px solid #999999;
+}
+
+header > .max-width-wrapper {
+  border-bottom: none
+}
+.card {
+  background-color: #ffffff;
+  padding-top: 8px;
+  
+}
+
+main {
+  background-color: #666666;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  border-top: 8px solid #999999;
+}
+
+.indented-heading {
+  background-color: #FFBF00;
+  max-width: 400px;
+  padding: 8px 32px;
+  margin: 0px -32px;
+  border-bottom: 8px solid #CC9900;
+}
+
+strong {
+  color: #009966;
+}
